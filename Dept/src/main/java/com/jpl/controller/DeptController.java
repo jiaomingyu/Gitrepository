@@ -17,4 +17,10 @@ public class DeptController {
         model.addAttribute("list",deptService.findAll());
         return "dept";
     }
+
+    @GetMapping("/showEmp")
+    public String showEmp(Integer did,Model model){
+        model.addAttribute("list",deptService.findEmpByDeptId(did));
+        return "showEmp";
+    }
 }

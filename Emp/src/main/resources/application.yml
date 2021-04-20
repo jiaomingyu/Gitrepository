@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: dubbo-emp-consumer
+  registry:
+    address: zookeeper://192.168.112.131:2181
+server:
+  port: 8082

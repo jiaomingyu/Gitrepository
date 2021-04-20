@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xnlns:th="http://www.thymeleaf.org"
+      xmlns:xnlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    姓名：<input type="text" name="name"><br/>
+    头像：<input type="file" name="file"><br/>
+    部门：
+    <select name="did">
+        <option th:each="dept:${list}" th:value="${dept.id}" th:text="${dept.name}"></option>
+    </select>
+    <input type="submit" value="新增">
+</form>
+</body>
+</html>
