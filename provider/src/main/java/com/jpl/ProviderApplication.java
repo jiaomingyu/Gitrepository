@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.jpl.mapper")
 public class ProviderApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(ProviderApplication.class,args);
     }
 }

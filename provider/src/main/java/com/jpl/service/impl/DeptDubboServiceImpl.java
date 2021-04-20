@@ -18,5 +18,4 @@ public class DeptDubboServiceImpl implements DeptDubboService {
         return deptMapper.findAll();
     }
 
-
 }

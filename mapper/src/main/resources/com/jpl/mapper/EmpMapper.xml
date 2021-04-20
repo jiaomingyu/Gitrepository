@@ -9,4 +9,5 @@
     <select id="findEmpByDeptId" parameterType="int" resultType="emp">
         select id,name,photo from emp where did=#{did}
     </select>
+    <!---->
 </mapper>

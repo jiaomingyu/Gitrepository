@@ -6,4 +6,5 @@
     <select id="findAll"  resultType="dept">
         select * from Dept
     </select>
+    <!---->
 </mapper>

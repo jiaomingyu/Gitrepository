@@ -12,6 +12,7 @@ import java.util.List;
 public class EmpDubboServiceImpl implements EmpDubboService {
     @Autowired
     private EmpMapper empMapper;
+
     @Override
     public int insertEmp(Emp emp) {
         return empMapper.insertEmp(emp);

@@ -39,7 +39,6 @@ public class Emp implements Serializable {
     public void setPhoto(String photo) {
         this.photo = photo;
     }
-
     @Override
     public String toString() {
         return "Emp{" +
